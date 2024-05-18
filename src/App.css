@@ -1,0 +1,113 @@
+body{
+  background-color: #E4C3A4;
+}
+.head{
+  height: 100px;
+  width:  1280px;
+  display: grid;
+  grid-template-columns: 50px 0.2fr 0.2fr 0.2fr 0.4fr 0.4fr 0.3fr 50px;
+  justify-items: center;
+}
+.logo{
+  height: 100px;
+  grid-column: 2;
+}
+.button{
+  margin-top: 35px;
+  font-size: 25px;
+}
+.button1{
+  margin-top: 25px;
+  height: 55px;
+  width: 100px;
+  background-color: #E79F4A;
+  border-radius: 15px 15px 15px 15px;
+}
+.signup{
+  font-size: 25px;
+  margin-block-start: auto;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.main{
+  margin-top: 40px;
+  height: 400px;
+  width: 1000px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.h1{
+  
+  color: #D43D27;
+
+}
+.text{
+  word-wrap: break-word;
+  margin-left: 70px;
+  width: 300px;
+  height: 400px;
+}
+.maintext{
+  font-size: 25px;
+}
+.koldun{
+  height: 400px;
+  width: 400px;
+}
+.buttons{
+  height: 55px;
+  width: 100px;
+  background-color: #E79F4A;
+  border-radius: 15px 15px 15px 15px;
+  display: flex;
+}
+.FAQ{
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+
+}
+.messege{
+  margin-top: 12px;
+  margin-left: 8px;
+  height: 28px;
+}
+
+@media (min-width:320px) and (max-width:480px){
+  
+  .head{
+    width: 850px;
+    grid-template-rows: 100px;
+  }
+  .main{
+      margin-top: 40px;
+      height: 400px;
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .maintext{
+      font-size: 40px;
+  }
+  .text{
+      width: 800px;
+  }
+  .h1{
+      font-size: 50px;
+  }
+  .buttons{
+      width: 200px;
+  }
+  .koldun{
+      height: 5000px;
+      width: 1000px;
+      margin-left: 300px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  .buttons{
+      width: 200px;
+  }
+  
+}
